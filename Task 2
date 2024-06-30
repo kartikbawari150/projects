@@ -1,0 +1,16 @@
+// Student Grade tracker//
+sub1 = int(input("Enter the marks of sub1:"))
+sub2 = int(input("Enter the marks of sub2:"))
+sub3 = int(input("Enter the marks of 3 sub:"))
+sub4 = int(input("Enter the marks of sub4:"))
+avg = sub1 + sub2 + sub3 + sub4 / 4
+if (avg > 90):
+    print("Your grade is :A")
+elif (avg > 80):
+    print("Your grade is: B")
+elif (avg > 70):
+    print("Your grade is :C")
+elif (avg > 60):
+    print("Your grade is :D")
+else:
+    print("Fail")
