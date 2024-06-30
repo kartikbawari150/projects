@@ -1,0 +1,14 @@
+// Calculator//
+num1 = int(input("Enter the num1:"))
+num2 = int(input("Enter the num2:"))
+operation = input("Select the operation:")
+if (operation == "add"):
+    print("The addition of nnum1 and num2 is:",num1 + num2)
+elif (operation == "sub"):
+    print("The subtraction of num1 and num2 is:",num1 - num2)
+elif (operation == "mul"):
+    print("The multiplication of num1 and num2 is :",num1 * num2)
+elif (operation == "div"):
+    print("The division of num1 and num2 is:",num1 / num2)
+else:
+    print("Invalid operation")
